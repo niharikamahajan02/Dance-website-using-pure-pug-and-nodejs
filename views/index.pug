@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+      ul 
+         #logo 
+               img(src="/static/logo.png")           
+        
+         li #[a(href="/") Home]
+         li #[a(href="/") About us]
+         li #[a(href="/") Contact]
+
+    section#intro 
+        div  WELCOME TO THIS DANCE ACADEMY 
+        div.small LIVE LEARN LAUGH
+
+    section#mission 
+        h2 OUR MISSION
+        div.card
+         h1 PERFECTION 
+           .card-box 
+               .card-img
+                 
+                   img(src="/static/pic1.png")
+               .card-content 
+               p Best Dance Academy
+                 
+                  
+
+        div.card
+         h1 YOUR WAY
+           .card-box 
+               .card-img 
+
+                   img(src="/static/pic2.jpg")
+               .card-content 
+               p Best Dance Academy
+
+        div.card
+         h1 EXPERT 
+           .card-box 
+               .card-img 
+
+                   img(src="/static/pic3.jpg")
+               .card-content 
+               p Best Dance Academy
+
+
+    section#secforpic  
+       h2 SECTION FOR SPONSERS 
+       div#sponsers
+         img(src="/static/sponser1.png",class="spimage")
+         img(src="/static/sponser2.jpg",class="spimage")
+         img(src="/static/sponser3.png",class="spimage")  
+
+    footer#footer 
+        | Copyright @ 2020 NDA:) | All rights reserved            
+    script
+      include ../static/index.js
